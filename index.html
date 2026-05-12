@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="SHIVACOIN is a compliance-first reward and utility layer for verified SCG ecosystem activity."
+      content="SCG demo gallery for reviewing working website references and future digital portal concepts."
     />
-    <title>SHIVACOIN | SCG Ecosystem Rewards</title>
+    <title>SCG Demo Gallery</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,379 +17,85 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="#home" aria-label="SHIVACOIN home">
-        <span class="brand-mark">S</span>
-        <span>
-          <strong>SHIVACOIN</strong>
-          <small>An SCG ecosystem initiative</small>
-        </span>
+    <header class="demo-header">
+      <a class="demo-brand" href="./" aria-label="SCG demo gallery home">
+        <span>SCG</span>
+        <strong>Demo Gallery</strong>
       </a>
-      <nav class="nav-links" aria-label="Primary navigation">
-        <a href="#home">Home</a>
-        <a href="#how">How it works</a>
-        <a href="#services">Services</a>
-        <a href="#sectors">Sectors</a>
-        <a href="#white-paper">White Paper</a>
-        <a href="#inquiry">Inquiry</a>
+      <nav aria-label="Demo gallery navigation">
+        <a href="#demos">Working demos</a>
+        <a href="https://github.com/rksjha/demo">GitHub repo</a>
       </nav>
-      <a class="header-cta" href="./docs/SHIVACOIN_White_Paper.md" download>
-        Download White Paper
-      </a>
     </header>
 
-    <main id="home">
-      <section class="hero section-pad">
-        <div class="hero-copy">
-          <h1>A trusted reward layer for verified SCG ecosystem activity</h1>
+    <main>
+      <section class="hero">
+        <div>
+          <h1>Working site references for review</h1>
           <p>
-            SHIVACOIN is designed as a closed-loop loyalty and utility platform
-            for eligible spend, verified client profiles, transparent ledgers
-            and approved service redemption across the SCG ecosystem.
+            A shared demo page for SCG-grade websites, portals and digital
+            concepts. Each item can embed a live working page, keep review links
+            visible, and remain ready for future deployment decisions.
           </p>
-          <div class="hero-actions">
-            <a class="button primary" href="./docs/SHIVACOIN_White_Paper.md" download>
-              Download White Paper
-            </a>
-            <a class="button secondary" href="#inquiry">Start an Inquiry</a>
-          </div>
         </div>
-        <div class="hero-visual" aria-label="SHIVACOIN ledger preview">
-          <div class="institution"></div>
-          <div class="ledger-card">
-            <div class="ledger-heading">
-              <span>SHIVACOIN Ledger</span>
-              <strong>Audit View</strong>
-            </div>
-            <div class="ledger-row">
-              <span>Verified Profile</span>
-              <span>KYC</span>
-              <strong>Ready</strong>
-            </div>
-            <div class="ledger-row">
-              <span>Eligible Spend</span>
-              <span>Credit</span>
-              <strong>+10.00</strong>
-            </div>
-            <div class="ledger-row">
-              <span>Service Redemption</span>
-              <span>Debit</span>
-              <strong>-2.00</strong>
-            </div>
-            <div class="ledger-total">
-              <span>Active balance</span>
-              <strong>8.00 SHIVACOIN</strong>
-            </div>
-          </div>
-          <div class="coin" aria-hidden="true">S</div>
-        </div>
+        <aside class="summary-panel">
+          <span>Repository</span>
+          <strong>rksjha/demo</strong>
+          <p>Root demo index with each working site maintained in its own folder.</p>
+        </aside>
       </section>
 
-      <section class="trust-strip" aria-label="Trust principles">
-        <article>
-          <span class="trust-icon">01</span>
-          <h2>Closed-loop first</h2>
-          <p>Earn and redeem only within approved SCG services at launch.</p>
+      <section class="demo-section" id="demos">
+        <div class="section-heading">
+          <h2>Available demos</h2>
+          <p>
+            Add future demos as new folders and list them here with embedded
+            previews, direct links, notes and review status.
+          </p>
+        </div>
+
+        <article class="demo-card">
+          <div class="demo-copy">
+            <span class="status">Live reference</span>
+            <h3>SHIVACOIN public website</h3>
+            <p>
+              Premium trust-first public site for SHIVACOIN with reward
+              calculator, services and sectors framing, compliance-safe value
+              messaging, white paper download flow and inquiry capture.
+            </p>
+            <dl>
+              <div>
+                <dt>Use case</dt>
+                <dd>Closed-loop rewards and future portal readiness</dd>
+              </div>
+              <div>
+                <dt>Review focus</dt>
+                <dd>Trust, compliance language, lead capture and SCG fit</dd>
+              </div>
+            </dl>
+            <div class="actions">
+              <a class="button primary" href="./shivacoin/">Open full demo</a>
+              <a class="button secondary" href="./shivacoin/docs/SHIVACOIN_White_Paper.md">
+                White paper
+              </a>
+            </div>
+          </div>
+          <div class="demo-frame-wrap">
+            <iframe
+              title="Embedded SHIVACOIN public website demo"
+              src="./shivacoin/"
+              loading="lazy"
+            ></iframe>
+          </div>
         </article>
-        <article>
-          <span class="trust-icon">02</span>
-          <h2>Verified profiles</h2>
-          <p>Eligibility depends on mapped users, organizations and invoices.</p>
-        </article>
-        <article>
-          <span class="trust-icon">03</span>
-          <h2>Audit-ready ledger</h2>
-          <p>Every issue, reversal and redemption is linked to a business event.</p>
-        </article>
-        <article>
-          <span class="trust-icon">04</span>
-          <h2>Compliance-gated utility</h2>
-          <p>Transfer, encashment and tokenization remain subject to review.</p>
-        </article>
-      </section>
-
-      <section class="calculator section-pad" id="calculator">
-        <div class="section-intro align-left">
-          <h2>Reward calculator</h2>
-          <p>
-            Estimate the base SHIVACOIN reward value for eligible spend. Final
-            issuance requires invoice confirmation, payment realization and
-            policy checks.
-          </p>
-          <small>Actual issuance is subject to verification and governance rules.</small>
-        </div>
-        <div class="calculator-panel">
-          <div class="calc-input">
-            <label for="spendRange">Eligible spend (INR)</label>
-            <div class="amount" id="spendDisplay">Rs 10,000</div>
-            <input
-              id="spendRange"
-              type="range"
-              min="1000"
-              max="1000000"
-              step="1000"
-              value="10000"
-            />
-            <div class="range-labels">
-              <span>Rs 1,000</span>
-              <span>Rs 10,00,000+</span>
-            </div>
-          </div>
-          <div class="calc-equals" aria-hidden="true">=</div>
-          <div class="calc-output">
-            <span>Estimated SHIVACOIN</span>
-            <strong id="coinOutput">10</strong>
-            <em>1 SHIVACOIN = Rs 1 reward value at issuance</em>
-          </div>
-          <div class="rule-note">
-            Issuance rule: Rs 1,000 eligible spend = 1 SHIVACOIN
-          </div>
-        </div>
-      </section>
-
-      <section class="audience section-pad" id="services">
-        <div class="section-intro">
-          <h2>Built around services, not speculation</h2>
-          <p>
-            SHIVACOIN starts as a practical reward layer for consulting,
-            documentation, advisory, agri, mentorship and partner workflows.
-          </p>
-        </div>
-        <div class="service-grid">
-          <article>
-            <span>MSME</span>
-            <h3>Diagnostics and documentation</h3>
-            <p>Earn on eligible service spend and redeem for business readiness support.</p>
-          </article>
-          <article>
-            <span>Consulting</span>
-            <h3>Strategy and governance</h3>
-            <p>Link advisory relationships to transparent reward statements.</p>
-          </article>
-          <article>
-            <span>Agri</span>
-            <h3>Farmer and dealer utility</h3>
-            <p>Support future input credits, dealer incentives and training programs.</p>
-          </article>
-          <article>
-            <span>Mentorship</span>
-            <h3>Founder guidance</h3>
-            <p>Reward subscriptions, pilot programs and investor-readiness engagement.</p>
-          </article>
-          <article>
-            <span>Partners</span>
-            <h3>Marketplace readiness</h3>
-            <p>Prepare partner offers, service credits and settlement controls.</p>
-          </article>
-          <article>
-            <span>Automation</span>
-            <h3>Portal integration path</h3>
-            <p>Structure data for future CRM, accounting, KYC and notification APIs.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="sectors section-pad" id="sectors">
-        <div class="sector-copy">
-          <h2>One verified identity across priority sectors</h2>
-          <p>
-            The public site is designed to feed a future portal where profiles,
-            documents, invoices, reward rules and redemptions can be governed by
-            client type, sector and compliance status.
-          </p>
-        </div>
-        <div class="sector-table" role="table" aria-label="SHIVACOIN sector use cases">
-          <div class="sector-row header" role="row">
-            <span role="columnheader">Sector</span>
-            <span role="columnheader">Reward use case</span>
-            <span role="columnheader">Portal readiness</span>
-          </div>
-          <div class="sector-row" role="row">
-            <span>MSMEs</span>
-            <span>Service credits for diagnostics, funding readiness and compliance.</span>
-            <span>Business profile, GST/PAN, document checklist.</span>
-          </div>
-          <div class="sector-row" role="row">
-            <span>Farmers and dealers</span>
-            <span>Agri input loyalty, dealer incentives and seasonal campaigns.</span>
-            <span>Registration, region, product movement and settlement rules.</span>
-          </div>
-          <div class="sector-row" role="row">
-            <span>Enterprises</span>
-            <span>Project-level advisory rewards and cross-department allocations.</span>
-            <span>Organization roles, invoice mapping and finance reports.</span>
-          </div>
-          <div class="sector-row" role="row">
-            <span>Partners</span>
-            <span>Offer acceptance, redemption validation and controlled settlement.</span>
-            <span>Partner agreement, offer catalog and dispute workflow.</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="workflow section-pad" id="how">
-        <div class="section-intro">
-          <h2>How SHIVACOIN works</h2>
-          <p>A simple lifecycle from participation to future utility review.</p>
-        </div>
-        <ol class="timeline">
-          <li>
-            <span>1</span>
-            <h3>Create profile</h3>
-            <p>User, organization, consent and documentation are captured.</p>
-          </li>
-          <li>
-            <span>2</span>
-            <h3>Confirm eligible spend</h3>
-            <p>Invoice and payment events pass policy and duplicate checks.</p>
-          </li>
-          <li>
-            <span>3</span>
-            <h3>Issue coins</h3>
-            <p>Rewards move from pending to active after settlement controls.</p>
-          </li>
-          <li>
-            <span>4</span>
-            <h3>Redeem services</h3>
-            <p>Coins apply to approved SCG service, training or partner utility.</p>
-          </li>
-          <li>
-            <span>5</span>
-            <h3>Review future utility</h3>
-            <p>Transfer, encashment and tokenization require legal clearance.</p>
-          </li>
-        </ol>
-      </section>
-
-      <section class="white-paper section-pad" id="white-paper">
-        <div class="paper-preview" aria-hidden="true">
-          <div class="paper-mark">S</div>
-          <h2>SHIVACOIN<br />White Paper</h2>
-          <p>A compliance-first reward and utility framework</p>
-          <span>Version 0.1 | 12 May 2026</span>
-        </div>
-        <div class="paper-copy">
-          <h2>Download the planning white paper</h2>
-          <p>
-            Review the reward principle, governance model, technology roadmap,
-            utility phases and risk disclosures behind the first SHIVACOIN
-            website and future portal.
-          </p>
-          <ul>
-            <li>Closed-loop reward and service-credit model</li>
-            <li>Governance roles, audit controls and liability treatment</li>
-            <li>Portal architecture, data model and integration roadmap</li>
-            <li>Compliance-safe future utility and tokenization guardrails</li>
-          </ul>
-          <a class="button primary" href="./docs/SHIVACOIN_White_Paper.md" download>
-            Download White Paper
-          </a>
-        </div>
-      </section>
-
-      <section class="inquiry section-pad" id="inquiry">
-        <div class="inquiry-copy">
-          <h2>Start an inquiry</h2>
-          <p>
-            Share your organization, profile type and interest area. The next
-            portal stage can connect this intake to profile verification,
-            document readiness and reward eligibility workflows.
-          </p>
-          <div class="contact-note">
-            <strong>Preferred launch posture:</strong>
-            loyalty and service redemption first; transfer, encashment and
-            tokenization only after compliance review.
-          </div>
-        </div>
-        <form class="inquiry-form" id="inquiryForm">
-          <label>
-            Full name
-            <input name="name" autocomplete="name" required />
-          </label>
-          <label>
-            Organization / company
-            <input name="organization" autocomplete="organization" required />
-          </label>
-          <label>
-            Profile type
-            <select name="profileType" required>
-              <option value="">Select profile type</option>
-              <option>MSME client</option>
-              <option>Enterprise client</option>
-              <option>Farmer</option>
-              <option>Dealer / distributor</option>
-              <option>Startup / founder</option>
-              <option>Partner merchant</option>
-            </select>
-          </label>
-          <label>
-            Email address
-            <input name="email" type="email" autocomplete="email" required />
-          </label>
-          <label>
-            Mobile number
-            <input name="mobile" autocomplete="tel" />
-          </label>
-          <label>
-            Interest area
-            <select name="interest" required>
-              <option value="">Select interest area</option>
-              <option>Earn rewards on SCG services</option>
-              <option>Redeem for advisory or documentation</option>
-              <option>Partner onboarding</option>
-              <option>Dealer or farmer program</option>
-              <option>Future portal integration</option>
-            </select>
-          </label>
-          <label class="wide">
-            Message
-            <textarea name="message" rows="4"></textarea>
-          </label>
-          <button class="button primary" type="submit">Submit Inquiry</button>
-          <p class="form-status" id="formStatus" role="status"></p>
-        </form>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div>
-        <a class="brand footer-brand" href="#home" aria-label="SHIVACOIN home">
-          <span class="brand-mark">S</span>
-          <span>
-            <strong>SHIVACOIN</strong>
-            <small>An SCG ecosystem initiative</small>
-          </span>
-        </a>
-        <p>
-          A compliance-first reward and utility layer for verified ecosystem
-          activity, built around trust, transparency and governance.
-        </p>
-      </div>
-      <div>
-        <h2>Quick links</h2>
-        <a href="#calculator">Reward calculator</a>
-        <a href="#services">Services</a>
-        <a href="#sectors">Sectors</a>
-        <a href="#inquiry">Inquiry</a>
-      </div>
-      <div>
-        <h2>Resources</h2>
-        <a href="./docs/SHIVACOIN_White_Paper.md" download>White Paper</a>
-        <a href="./docs/SHIVACOIN_Business_Plan.md" download>Business Plan</a>
-        <a href="./docs/SHIVACOIN_System_Architecture_and_DFD.md" download>
-          Architecture Notes
-        </a>
-      </div>
-      <div>
-        <h2>Compliance note</h2>
-        <p>
-          SHIVACOIN is not an investment offer, security or financial
-          instrument. Future value, transfer, encashment and tokenization are
-          not guaranteed and require professional review.
-        </p>
-      </div>
+    <footer class="demo-footer">
+      <p>
+        Future demo items can be added as embedded working-site links for
+        reference, review and stakeholder approval.
+      </p>
     </footer>
-
-    <script src="./app.js"></script>
   </body>
 </html>
