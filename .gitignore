@@ -1,0 +1,4 @@
+.env
+.env.*
+qa/
+.DS_Store
